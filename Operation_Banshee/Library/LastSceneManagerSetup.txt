@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Space_Ship_01.unity
+- path: Assets/Scenes/Non_glow.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
