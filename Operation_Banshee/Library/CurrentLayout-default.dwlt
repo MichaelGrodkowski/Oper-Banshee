@@ -536,20 +536,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/cubeMaps
+    - Assets/Materials/Cafeteria_door
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials/cubeMaps
+  - Assets/Materials/Cafeteria_door
   m_LastFoldersGridSize: -1
   m_LastProjectPath: S:\Repos\Oper-Banshee\Operation_Banshee
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 94720000
-    m_LastClickedID: 29332
-    m_ExpandedIDs: 0000000064390000764200003243000092430000ca43000038440000de4e0000e868000000ca9a3b
+    m_SelectedIDs: 3e420000
+    m_LastClickedID: 16958
+    m_ExpandedIDs: 00000000643900007a4200008a4200003643000096430000ce4300003c440000e64e00000a6a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -577,7 +577,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000064390000764200003243000092430000ca43000038440000de4e0000e8680000
+    m_ExpandedIDs: 00000000643900007a4200003643000096430000ce430000e64e00000a6a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -670,7 +670,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 292
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -702,7 +702,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: cacfffff6cfbffff94530000ee58000094590000c65a0000765b0000d45b0000045c0000
+      m_ExpandedIDs: 6cfbffff82590000265d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -762,9 +762,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -252.6467, y: 77.21278, z: -245.61087}
+    m_Target: {x: -371.9507, y: 159.7211, z: 29.098242}
     speed: 2
-    m_Value: {x: -252.6467, y: 77.21278, z: -245.61087}
+    m_Value: {x: -371.9507, y: 159.7211, z: 29.098242}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -793,13 +793,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.00008727361, y: 0.9632112, z: -0.27001244, w: 0.0029798157}
+    m_Target: {x: 0.43845624, y: 0.48765162, z: -0.30882597, w: 0.68944454}
     speed: 2
-    m_Value: {x: -0.0007212196, y: 0.9591515, z: -0.28289217, w: 0.00009991792}
+    m_Value: {x: 0.43921492, y: 0.48539782, z: -0.30739316, w: 0.6906436}
   m_Size:
-    m_Target: 678.15436
+    m_Target: 203.89796
     speed: 2
-    m_Value: 684.36804
+    m_Value: 195.11768
   m_Ortho:
     m_Target: 0
     speed: 2
