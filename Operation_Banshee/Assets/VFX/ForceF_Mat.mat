@@ -11,9 +11,9 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 35ede2ad2e15f054d88af925f39f2859,
     type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
@@ -21,6 +21,15 @@ Material:
   - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
-    m_Floats: []
-    m_Colors: []
+    m_TexEnvs:
+    - Texture2D_D9465B31:
+        m_Texture: {fileID: 2800000, guid: 99ec2768a24db7740b39746e24a57c9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_5777A454: 0.1
+    - Vector1_57859CC3: 0.79
+    - Vector1_854BEC0: 0.001
+    - Vector1_A319A500: 0.17
+    m_Colors:
+    - Color_F79F8E78: {r: 0, g: 0.9700117, b: 1, a: 1}
