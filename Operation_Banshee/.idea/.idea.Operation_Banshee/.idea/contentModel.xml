@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="Game_scripts" t="Include">
           <e p="Door_script.cs" t="Include" />
+          <e p="EnemyMove.cs" t="Include" />
           <e p="JustOpen.cs" t="Include" />
           <e p="Looking.cs" t="Include" />
           <e p="movement.cs" t="Include" />

@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/EnemyMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/Door_script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/JustOpen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/movement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,6 +26,7 @@
         <option value="$PROJECT_DIR$/Assets/Game_scripts/OnlineDS.cs" />
         <option value="$PROJECT_DIR$/Assets/Game_scripts/JustOpen.cs" />
         <option value="$PROJECT_DIR$/Assets/Game_scripts/Door_script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game_scripts/EnemyMove.cs" />
       </list>
     </option>
   </component>
@@ -82,6 +84,7 @@
       <updated>1585964419817</updated>
       <workItem from="1585964432679" duration="1993000" />
       <workItem from="1586299478208" duration="8391000" />
+      <workItem from="1586901630256" duration="252000" />
     </task>
     <servers />
   </component>
