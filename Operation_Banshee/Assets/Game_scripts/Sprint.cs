@@ -4,59 +4,88 @@ using UnityEngine;
 
 public class Sprint : MonoBehaviour
 {
-    public CharacterController controller;
 
-    public float Movement;
-    public float sprint = 300f;
-    public float speed = 12f;
-    public float gravity = -9.81f;
-    public float jumpHeight = 3f;
+    public float speed = 10.0f;
     
-    public Transform groundCheck;
-    public float groundDistance = 0.4f;
-    public LayerMask GroundMask;
+    public float WalkSpeed = 7.0f;
+    public float RunSpeed = 12.0f;
 
-    private bool isGrounded;
-    private Vector3 velocity;
+    public float sensitivity = 30.0f;
+    public float WaterHeight = 15.5f;
+
+    private CharacterController character;
+    public GameObject cam;
+    private float moveFB, moveLR;
+    private float rotX, rotY;
+
+    public bool webGLRightClickRotation = true;
+    public float gravity = -9.8f;
     void Start()
     {
-        
+     //LockCursor ();
+     //Character = GetComponent<CharacterController>();
+     if (Application.isEditor)
+     {
+         webGLRightClickRotation = false;
+         sensitivity = sensitivity * 1.5f;
+         Cursor.visible = false;
+         speed = WalkSpeed;
+     }
     }
 
-    // Update is called once per frame
-    void Update()
+    void CheckforWaterHeight()
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, GroundMask);
-
-        if (isGrounded && velocity.y < 0)
+        if (transform.position.y < WaterHeight)
         {
-            velocity.y = -2f;
-        }
-        
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
-
-        Vector3 move = transform.right * x + transform.forward * z;
-
-        controller.Move(move * Movement * Time.deltaTime);
-
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-        }
-        velocity.y += gravity * Time.deltaTime;
-
-        controller.Move(velocity * Time.deltaTime);
-       
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            controller.Move(move * sprint * Time.deltaTime);
+            gravity = 0f;
         }
         else
         {
-            controller.Move(move * speed * Time.deltaTime);
+            gravity = -9.8f;
+        }
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = RunSpeed;
+        }
+        else
+        {
+            speed = WalkSpeed;
+        }
+        
+        moveFB = Input.GetAxis("Horizontal") * speed;
+        moveLR = Input.GetAxis("Vertical") * speed;
+
+        rotX = Input.GetAxis("Mouse X") * sensitivity;
+        rotY = Input.GetAxis("Mouse Y") * sensitivity;
+        
+        CheckforWaterHeight(); 
+        
+        Vector3 movement = new Vector3(moveFB, gravity, moveLR );
+
+        if (webGLRightClickRotation)
+        {
+            if (Input.GetKey(KeyCode.Mouse0))
+            {
+                CameraRotation(cam, rotX, rotY);
+            }
+            else if (!webGLRightClickRotation)
+            {
+                CameraRotation(cam, rotX, rotY);
+            }
+
+            movement = transform.rotation * movement;
+            character.Move(movement * Time.deltaTime);
+        }
+
+        void CameraRotation(GameObject cam, float rotX, float rotY)
+        {
+            transform.Rotate(0,  rotX * Time.deltaTime, 0);
+            cam.transform.Rotate(-rotY * Time.deltaTime, 0, 0);
         }
         
     }
 }
-
