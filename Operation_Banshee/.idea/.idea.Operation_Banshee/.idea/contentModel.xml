@@ -11,12 +11,18 @@
           <e p="Door_script.cs" t="Include" />
           <e p="EnemyHealth.cs" t="Include" />
           <e p="EnemyMove.cs" t="Include" />
-          <e p="GunScript.cs" t="Include" />
           <e p="JustOpen.cs" t="Include" />
-          <e p="Laser_Script.cs" t="Include" />
-          <e p="LaserAltFire.cs" t="Include" />
           <e p="Looking.cs" t="Include" />
           <e p="movement.cs" t="Include" />
+          <e p="Save_Script.cs" t="Include" />
+          <e p="Shooting" t="Include">
+            <e p="GunScript.cs" t="Include" />
+            <e p="Laser_Script.cs" t="Include" />
+            <e p="LaserAltFire.cs" t="Include" />
+            <e p="Projectile_Move.cs" t="Include" />
+            <e p="RigidShoot.cs" t="Include" />
+            <e p="RotateToMouse.cs" t="Include" />
+          </e>
           <e p="Sprint.cs" t="Include" />
         </e>
         <e p="Standard_Unity" t="Include">
