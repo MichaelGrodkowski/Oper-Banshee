@@ -42,7 +42,7 @@ public class EnemyMove : MonoBehaviour
     {
         TargetPosition = Target1;
         MoveToTarget();
-        anim = GetComponent<Animator>();
+        anim = GetComponentInParent <Animator>();
         LastTarget = CurrentTarget;
 
         TargetDescriptor = EnemyNumber + "TargetCube1";
@@ -144,7 +144,7 @@ public class EnemyMove : MonoBehaviour
                     TargetDescriptor = EnemyNumber + "TargetCube10";
                 }
 
-                GetComponent<NavMeshAgent>().destination = TargetPosition.position;
+                GetComponentInParent<NavMeshAgent>().destination = TargetPosition.position;
 
                 LastTarget = CurrentTarget;
 

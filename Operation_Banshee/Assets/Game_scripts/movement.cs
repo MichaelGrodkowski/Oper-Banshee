@@ -48,7 +48,7 @@ public class movement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
         
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             Movement = Sprint;
         }
