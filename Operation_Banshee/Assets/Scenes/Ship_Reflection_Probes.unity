@@ -5093,6 +5093,7 @@ GameObject:
   - component: {fileID: 142806567}
   - component: {fileID: 142806566}
   - component: {fileID: 142806565}
+  - component: {fileID: 142806564}
   m_Layer: 0
   m_Name: Firepoint
   m_TagString: Untagged
@@ -5100,6 +5101,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &142806564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142806563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faf88c16066b2894ea7ddbc3dd129587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootRate: 0
+  m_shotPrefab: {fileID: 0}
 --- !u!23 &142806565
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5153,14 +5168,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142806563}
-  m_LocalRotation: {x: -0, y: 0.99880415, z: -0, w: 0.048889928}
-  m_LocalPosition: {x: 0.002319713, y: -0.007092621, z: -0.15377615}
-  m_LocalScale: {x: 0.11830085, y: 0.118300855, z: 0.11830085}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.236, y: 0.4077, z: 1.1617}
+  m_LocalScale: {x: 0.41550663, y: 0.36629003, z: 0.4155066}
   m_Children:
   - {fileID: 668364918}
   - {fileID: 1913564333}
-  m_Father: {fileID: 450876244}
-  m_RootOrder: 0
+  m_Father: {fileID: 719269499}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &144029675
 GameObject:
@@ -31631,13 +31646,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668364917}
-  m_LocalRotation: {x: 0.05303989, y: -0.000000007450581, z: -0, w: 0.99859244}
-  m_LocalPosition: {x: 0, y: 0.318, z: -0.021}
+  m_LocalRotation: {x: -0.0046439944, y: -0.0000000037252894, z: -0.0000000012805682,
+    w: 0.9999892}
+  m_LocalPosition: {x: 0, y: 0.023, z: 0.029}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 142806567}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 6.0810003, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.532, y: 0, z: 0}
 --- !u!199 &668364919
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -37849,6 +37865,7 @@ Transform:
   - {fileID: 229354749}
   - {fileID: 1508531795}
   - {fileID: 811872389}
+  - {fileID: 142806567}
   - {fileID: 450876244}
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -44902,7 +44919,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 084917d7c03cb9b488e180c338b5be8f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 084917d7c03cb9b488e180c338b5be8f,
         type: 3}
