@@ -12,14 +12,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/Save_Script.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/movement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/Sprint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/Shooting/RayGun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/EnemyScripts/Enemy_Attack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/Door_script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/PlayerWalk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/Save_Script.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/JustOpen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/Sprint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/Shooting/RigidShoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game_scripts/Shooting/ShotBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -40,6 +42,8 @@
         <option value="$PROJECT_DIR$/Assets/Game_scripts/EnemyScripts/Enemy_Attack.cs" />
         <option value="$PROJECT_DIR$/Assets/Game_scripts/PlayerWalk.cs" />
         <option value="$PROJECT_DIR$/Assets/Game_scripts/movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game_scripts/Shooting/RayGun.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game_scripts/Shooting/ShotBehavior.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +104,7 @@
       <workItem from="1586901630256" duration="10614000" />
       <workItem from="1586966366868" duration="6479000" />
       <workItem from="1587136086560" duration="16669000" />
+      <workItem from="1587354215616" duration="237000" />
     </task>
     <servers />
   </component>

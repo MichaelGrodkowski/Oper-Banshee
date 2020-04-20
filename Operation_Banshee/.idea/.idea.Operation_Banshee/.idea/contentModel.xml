@@ -24,8 +24,10 @@
             <e p="Laser_Script.cs" t="Include" />
             <e p="LaserAltFire.cs" t="Include" />
             <e p="Projectile_Move.cs" t="Include" />
+            <e p="RayGun.cs" t="Include" />
             <e p="RigidShoot.cs" t="Include" />
             <e p="RotateToMouse.cs" t="Include" />
+            <e p="ShotBehavior.cs" t="Include" />
           </e>
           <e p="Sprint.cs" t="Include" />
         </e>
