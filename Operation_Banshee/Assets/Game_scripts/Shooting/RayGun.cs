@@ -33,8 +33,8 @@ public class RayGun : MonoBehaviour
         if (Physics.Raycast(ray, out hit, range))
         {
             GameObject laser = GameObject.Instantiate(m_shotPrefab, transform.position, transform.rotation) as GameObject;
-            laser.GetComponent<ShotBehavior>().setTarget(hit.point);
-            GameObject.Destroy(laser, 2f);
+             laser.GetComponent<ShotBehavior>().setTarget(hit.point);
+            GameObject.Destroy(laser, .5f);
 
 
         }

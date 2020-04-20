@@ -42,8 +42,8 @@
         <option value="$PROJECT_DIR$/Assets/Game_scripts/EnemyScripts/Enemy_Attack.cs" />
         <option value="$PROJECT_DIR$/Assets/Game_scripts/PlayerWalk.cs" />
         <option value="$PROJECT_DIR$/Assets/Game_scripts/movement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game_scripts/Shooting/RayGun.cs" />
         <option value="$PROJECT_DIR$/Assets/Game_scripts/Shooting/ShotBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game_scripts/Shooting/RayGun.cs" />
       </list>
     </option>
   </component>
@@ -104,7 +104,7 @@
       <workItem from="1586901630256" duration="10614000" />
       <workItem from="1586966366868" duration="6479000" />
       <workItem from="1587136086560" duration="16669000" />
-      <workItem from="1587354215616" duration="237000" />
+      <workItem from="1587354215616" duration="3236000" />
     </task>
     <servers />
   </component>

@@ -13,7 +13,7 @@ public class ShotBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // transform.position += transform.forward * Time.deltaTime * 300f;// The step size is equal to speed times frame time.
+        transform.position += transform.forward * Time.deltaTime * 300f;
         float step = speed * Time.deltaTime;
 
         if (m_target != null)
@@ -30,7 +30,7 @@ public class ShotBehavior : MonoBehaviour
 
     public void setTarget(Vector3 target)
     {
-        m_target = target;
+       m_target = target;
     }
 
     void explode()
